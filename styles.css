@@ -1,0 +1,208 @@
+
+
+* {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  text-align: center;
+  margin: 0 auto;
+	background-color: pink;
+}
+
+header {
+  background-color: #DDE2E3;
+  margin: auto;
+  padding: 35px;
+}
+
+h1 {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 45px;
+  color: #3C455C;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; 
+}
+
+a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* unvisited link */
+a:link {
+    color: #00004D;
+}
+
+/* visited link */
+a:visited {
+    color: #404040;
+}
+
+/* mouse over link */
+a:hover {
+    color: midnightblue;
+    transform: scale(1.1); 
+    text-decoration: underline;
+}
+
+ul li {
+  background-color: yellow;
+  margin: 5px auto;
+  padding: 15px;
+  width: 100%;
+}
+
+.profile-img {
+  padding: 20px;
+  margin-top: 50px;
+}
+
+#portfolio {
+  padding: 30px;
+  letter-spacing: 1px;
+}
+
+.tile {
+  padding: 20px;
+  margin: auto;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 100%
+}
+
+.tile-text {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.tile p {
+  width: 95%;
+  margin: auto;
+}
+
+#calculator-tile {
+  margin-bottom: 40px;
+}
+
+footer {
+  background-color: #f2f2f2;
+  margin: 0 auto;
+  padding: 35px;
+}
+
+#contact {
+  padding: 20px;
+}
+
+.name-footer,
+.btt-link {
+  display: inline-block;
+}
+
+.name-footer {
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+
+.btt-link {
+  float: right;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.bottom-line {
+  border-top: 1px solid #ccc;
+  padding-top: 30px;
+
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 768px) {
+  ul li {
+    padding: 10px 30px;
+    display: inline-block;
+    width: auto;
+    background: none;
+  }
+
+  .banner-text {
+    margin-top: 50px;
+    padding-top: 20px;
+    text-align: left;
+    line-height: 1.5em;
+  }
+
+  .banner-text p {           
+    display: inline-block;
+    float: left;
+  }
+
+  .profile-img {
+    display: inline-block;
+    float: right;
+    width: 45%;
+    padding-right: 0px;
+  }
+
+  .tile {
+    width: 40%;
+    float: left;
+    display: inline;
+    margin-left: 20px;
+  }
+
+  .tile p {
+    width: 80%;
+    margin: auto;
+  }
+
+  .contact-text {
+    width: 75%;
+    margin: auto;
+    padding-bottom: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .banner-text {
+    margin-left: 20px;
+  }
+
+  .profile-img {
+    width: 40%;
+    margin-left: 20px;
+  }
+
+  .tile {
+    width: 30%;
+    margin: 0;
+    padding: 5px 5px 50px 5px;
+  }
+
+  .tile p {
+    width: 95%;
+    margin: auto;
+  }
+
+  #calculator-tile {
+    margin: 0;
+  }
+}
